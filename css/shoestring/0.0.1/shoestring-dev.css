@@ -216,13 +216,43 @@ td,
 th {
   padding: 0; }
 
+/* clear fix */
+/* line 13, /home/vagrant/code/mks/frontend/shoestring/clearfix.sass */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table; }
+
+/* line 18, /home/vagrant/code/mks/frontend/shoestring/clearfix.sass */
+.clearfix:after {
+  clear: both; }
+
+/* line 26, /home/vagrant/code/mks/frontend/shoestring/clearfix.sass */
+.clearfix {
+  *zoom: 1; }
+
 /* line 1, ../../../sass/shoestring/links.sass */
 a {
   text-decoration: none; }
 
-/* line 7, ../../../sass/shoestring/main.sass */
-p {
-  background: red; }
-  /* line 9, ../../../sass/shoestring/main.sass */
-  p h1 {
-    color: red; }
+/* line 12, ../../../sass/shoestring/main.sass */
+body {
+  background: #ddf0fd; }
+  /* line 14, ../../../sass/shoestring/main.sass */
+  body h1 {
+    color: hotpink; }
+
+/* line 18, ../../../sass/shoestring/main.sass */
+.border-tester {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background: blue;
+  width: 100px;
+  height: 100px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }

@@ -1,10 +1,23 @@
+//added normalize to fix browser defaults
 @import normalize
-
+//added clearfix 
+@import clearfix
+//some variables
+@import vars
+//some mixins
+@import mixins
 @import links
 
 
-
-p
-	background: red
+body
+	background: $mks-blue
 	h1
-		color: red
+		color: $sassy-pink
+
+
+.border-tester
+	+border-radius(5px)
+	background: blue
+	width: 100px
+	height: 100px
+	+user-select
