@@ -1,13 +1,20 @@
 //added normalize to fix browser defaults
 @import normalize
-//added clearfix 
+
+//added clearfix
 @import clearfix
+
 //some variables
 @import vars
+
 //some mixins
 @import mixins
-@import links
 
+//adding gridding and responsive design
+@import grid
+
+//adding button stuff
+@import buttons
 
 body
 	background: $mks-blue
@@ -15,9 +22,9 @@ body
 		color: $sassy-pink
 
 
-.border-tester
-	+border-radius(5px)
-	background: blue
-	width: 100px
-	height: 100px
-	+user-select
+// .border-tester
+// 	+border-radius(5px)
+// 	background: blue
+// 	width: 100px
+// 	height: 100px
+// 	+user-select

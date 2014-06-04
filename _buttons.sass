@@ -1,0 +1,61 @@
+@import vars
+@import mixins
+
+@mixin button
+  color: black
+  display: inline-block
+  border: 1px solid black
+  background: white
+  text-decoration: none
+  padding: 5px
+  +user-select
+  +border-radius(3px)
+
+@mixin button-hover
+  background: $off-white
+
+@mixin button-active
+  background: darken(#ccc, 10%)
+
+@mixin primary-button
+  background: $primary
+  color: white
+  &:hover
+    background: darken($primary,10%)
+  &:active
+    background: darken($primary,15%)
+@function get-color($search)
+  @return map-get($color-map, $search)
+
+//=======
+// actual element
+
+a.button
+  +button
+  &:hover
+    +button-hover
+  &:active
+    +button-active
+  &:visited
+    @extend a.button
+  // &.primary
+  //   +primary-button
+  // @each $key, $value in color-map
+  //   &.#{$key}
+  //     color: white
+  //     background: get-color($key)
+  //     border: 2px solid get-color($key)
+  //     &:hover
+  //       background: darken(get-color($key), 10%)
+  //       border: 2px solid darken(get-color($key), 15%)
+  //     &:active
+  //       background: darken(get-color($key),15%)
+  //       border: 2px solid darken(get-color($key), 15%)
+
+input[type=button], input[type=submit], button
+  &.button
+    @extend a.button
+    cursor: pointer
+    outline: none
+
+
