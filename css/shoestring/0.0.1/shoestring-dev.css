@@ -293,7 +293,11 @@ html {
       float: right;
       padding-right: 0;
       margin-right: 0; } }
+<<<<<<< HEAD
 /* line 31, /home/vagrant/code/mks/frontend/shoestring/_buttons.sass */
+=======
+/* line 33, /home/vagrant/code/mks/frontend/shoestring/_buttons.sass */
+>>>>>>> c9ce408870d83a6737c50379f6c2524c99109d58
 a.button, a.button:visited, input[type=button].button, input[type=submit].button, button.button {
   color: black;
   display: inline-block;
@@ -310,6 +314,7 @@ a.button, a.button:visited, input[type=button].button, input[type=submit].button
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px; }
+<<<<<<< HEAD
   /* line 33, /home/vagrant/code/mks/frontend/shoestring/_buttons.sass */
   a.button:hover, input[type=button].button:hover, input[type=submit].button:hover, button.button:hover {
     background: #efe9e9; }
@@ -383,10 +388,21 @@ a.button, a.button:visited, input[type=button].button, input[type=submit].button
       border: 2px solid #b52b27; }
 
 /* line 53, /home/vagrant/code/mks/frontend/shoestring/_buttons.sass */
+=======
+  /* line 35, /home/vagrant/code/mks/frontend/shoestring/_buttons.sass */
+  a.button:hover, input[type=button].button:hover, input[type=submit].button:hover, button.button:hover {
+    background: #efe9e9; }
+  /* line 37, /home/vagrant/code/mks/frontend/shoestring/_buttons.sass */
+  a.button:active, input[type=button].button:active, input[type=submit].button:active, button.button:active {
+    background: #b3b3b3; }
+
+/* line 56, /home/vagrant/code/mks/frontend/shoestring/_buttons.sass */
+>>>>>>> c9ce408870d83a6737c50379f6c2524c99109d58
 input[type=button].button, input[type=submit].button, button.button {
   cursor: pointer;
   outline: none; }
 
+<<<<<<< HEAD
 /* line 1, ../../../sass/shoestring/links.sass */
 a {
   text-decoration: none; }
@@ -395,5 +411,11 @@ a {
 body {
   background: #ddf0fd; }
   /* line 24, ../../../sass/shoestring/main.sass */
+=======
+/* line 19, ../../../sass/shoestring/main.sass */
+body {
+  background: #ddf0fd; }
+  /* line 21, ../../../sass/shoestring/main.sass */
+>>>>>>> c9ce408870d83a6737c50379f6c2524c99109d58
   body h1 {
     color: hotpink; }
