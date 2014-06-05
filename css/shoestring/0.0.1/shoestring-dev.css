@@ -217,7 +217,7 @@ th {
   padding: 0; }
 
 /* clear fix */
-/* line 13, /home/vagrant/code/mks/frontend/shoestring/_clearfix.sass */
+/* line 13, ../../../sass/shoestring/_clearfix.sass */
 .clearfix:before, .container:before, .full-width-container:before,
 .clearfix:after,
 .container:after,
@@ -225,79 +225,75 @@ th {
   content: " ";
   display: table; }
 
-/* line 18, /home/vagrant/code/mks/frontend/shoestring/_clearfix.sass */
+/* line 18, ../../../sass/shoestring/_clearfix.sass */
 .clearfix:after, .container:after, .full-width-container:after {
   clear: both; }
 
-/* line 26, /home/vagrant/code/mks/frontend/shoestring/_clearfix.sass */
+/* line 26, ../../../sass/shoestring/_clearfix.sass */
 .clearfix, .container, .full-width-container {
   *zoom: 1; }
 
-/* line 4, /home/vagrant/code/mks/frontend/shoestring/_grid.sass */
+/* line 4, ../../../sass/shoestring/_grid.sass */
 html {
   font-size: 100%; }
 
 @media (min-width: 40rem) {
-  /* line 9, /home/vagrant/code/mks/frontend/shoestring/_grid.sass */
+  /* line 9, ../../../sass/shoestring/_grid.sass */
   html {
     font-size: 112%; } }
 @media (min-width: 64rem) {
-  /* line 14, /home/vagrant/code/mks/frontend/shoestring/_grid.sass */
+  /* line 14, ../../../sass/shoestring/_grid.sass */
   html {
     font-size: 120%; } }
-/* line 17, /home/vagrant/code/mks/frontend/shoestring/_grid.sass */
+/* line 17, ../../../sass/shoestring/_grid.sass */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 21, /home/vagrant/code/mks/frontend/shoestring/_grid.sass */
+/* line 21, ../../../sass/shoestring/_grid.sass */
 .container {
   margin: 0 auto;
   max-width: 48rem;
   width: 90%; }
-  /* line 25, /home/vagrant/code/mks/frontend/shoestring/_grid.sass */
+  /* line 25, ../../../sass/shoestring/_grid.sass */
   .container.demo {
     margin-bottom: 10px; }
-  /* line 29, /home/vagrant/code/mks/frontend/shoestring/_grid.sass */
+  /* line 29, ../../../sass/shoestring/_grid.sass */
   .container .column.demo {
     background: #cccccc; }
 
 @media (min-width: 40rem) {
-  /* line 33, /home/vagrant/code/mks/frontend/shoestring/_grid.sass */
+  /* line 33, ../../../sass/shoestring/_grid.sass */
   .column {
     float: left;
     padding-right: 1rem;
     margin-right: 1rem; }
-    /* line 38, /home/vagrant/code/mks/frontend/shoestring/_grid.sass */
+    /* line 38, ../../../sass/shoestring/_grid.sass */
     .column.full {
       width: 100%; }
-    /* line 41, /home/vagrant/code/mks/frontend/shoestring/_grid.sass */
+    /* line 41, ../../../sass/shoestring/_grid.sass */
     .column.two-thirds {
       width: 63.7%; }
-    /* line 44, /home/vagrant/code/mks/frontend/shoestring/_grid.sass */
+    /* line 44, ../../../sass/shoestring/_grid.sass */
     .column.third {
       width: 31.2%; }
-    /* line 47, /home/vagrant/code/mks/frontend/shoestring/_grid.sass */
+    /* line 47, ../../../sass/shoestring/_grid.sass */
     .column.half {
       width: 47.5%; }
-    /* line 50, /home/vagrant/code/mks/frontend/shoestring/_grid.sass */
+    /* line 50, ../../../sass/shoestring/_grid.sass */
     .column.fourth {
       width: 22.5%; }
-    /* line 53, /home/vagrant/code/mks/frontend/shoestring/_grid.sass */
+    /* line 53, ../../../sass/shoestring/_grid.sass */
     .column.fourth-padded {
       width: 23%;
       margin-right: 2%; }
-    /* line 57, /home/vagrant/code/mks/frontend/shoestring/_grid.sass */
+    /* line 57, ../../../sass/shoestring/_grid.sass */
     .column.flow-opposite {
       float: right;
       padding-right: 0;
       margin-right: 0; } }
-<<<<<<< HEAD
-/* line 31, /home/vagrant/code/mks/frontend/shoestring/_buttons.sass */
-=======
-/* line 33, /home/vagrant/code/mks/frontend/shoestring/_buttons.sass */
->>>>>>> c9ce408870d83a6737c50379f6c2524c99109d58
+/* line 24, ../../../sass/shoestring/_buttons.sass */
 a.button, a.button:visited, input[type=button].button, input[type=submit].button, button.button {
   color: black;
   display: inline-block;
@@ -314,108 +310,97 @@ a.button, a.button:visited, input[type=button].button, input[type=submit].button
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px; }
-<<<<<<< HEAD
-  /* line 33, /home/vagrant/code/mks/frontend/shoestring/_buttons.sass */
+  /* line 26, ../../../sass/shoestring/_buttons.sass */
   a.button:hover, input[type=button].button:hover, input[type=submit].button:hover, button.button:hover {
     background: #efe9e9; }
-  /* line 35, /home/vagrant/code/mks/frontend/shoestring/_buttons.sass */
+  /* line 28, ../../../sass/shoestring/_buttons.sass */
   a.button:active, input[type=button].button:active, input[type=submit].button:active, button.button:active {
     background: #b3b3b3; }
-  /* line 41, /home/vagrant/code/mks/frontend/shoestring/_buttons.sass */
+  /* line 34, ../../../sass/shoestring/_buttons.sass */
   a.button.primary, input.primary[type=button].button, input.primary[type=submit].button, button.primary.button {
     color: white;
     background: #428bca;
     border: 2px solid #428bca; }
-    /* line 45, /home/vagrant/code/mks/frontend/shoestring/_buttons.sass */
+    /* line 38, ../../../sass/shoestring/_buttons.sass */
     a.button.primary:hover, input.primary[type=button].button:hover, input.primary[type=submit].button:hover, button.primary.button:hover {
       background: #3071a9;
       border: 2px solid #2a6496; }
-    /* line 48, /home/vagrant/code/mks/frontend/shoestring/_buttons.sass */
+    /* line 41, ../../../sass/shoestring/_buttons.sass */
     a.button.primary:active, input.primary[type=button].button:active, input.primary[type=submit].button:active, button.primary.button:active {
       background: #2a6496;
       border: 2px solid #2a6496; }
-  /* line 41, /home/vagrant/code/mks/frontend/shoestring/_buttons.sass */
+  /* line 34, ../../../sass/shoestring/_buttons.sass */
   a.button.success, input.success[type=button].button, input.success[type=submit].button, button.success.button {
     color: white;
     background: #5cb85c;
     border: 2px solid #5cb85c; }
-    /* line 45, /home/vagrant/code/mks/frontend/shoestring/_buttons.sass */
+    /* line 38, ../../../sass/shoestring/_buttons.sass */
     a.button.success:hover, input.success[type=button].button:hover, input.success[type=submit].button:hover, button.success.button:hover {
       background: #449d44;
       border: 2px solid #3d8b3d; }
-    /* line 48, /home/vagrant/code/mks/frontend/shoestring/_buttons.sass */
+    /* line 41, ../../../sass/shoestring/_buttons.sass */
     a.button.success:active, input.success[type=button].button:active, input.success[type=submit].button:active, button.success.button:active {
       background: #3d8b3d;
       border: 2px solid #3d8b3d; }
-  /* line 41, /home/vagrant/code/mks/frontend/shoestring/_buttons.sass */
+  /* line 34, ../../../sass/shoestring/_buttons.sass */
   a.button.info, input.info[type=button].button, input.info[type=submit].button, button.info.button {
     color: white;
     background: #5bc0de;
     border: 2px solid #5bc0de; }
-    /* line 45, /home/vagrant/code/mks/frontend/shoestring/_buttons.sass */
+    /* line 38, ../../../sass/shoestring/_buttons.sass */
     a.button.info:hover, input.info[type=button].button:hover, input.info[type=submit].button:hover, button.info.button:hover {
       background: #31b0d5;
       border: 2px solid #28a1c5; }
-    /* line 48, /home/vagrant/code/mks/frontend/shoestring/_buttons.sass */
+    /* line 41, ../../../sass/shoestring/_buttons.sass */
     a.button.info:active, input.info[type=button].button:active, input.info[type=submit].button:active, button.info.button:active {
       background: #28a1c5;
       border: 2px solid #28a1c5; }
-  /* line 41, /home/vagrant/code/mks/frontend/shoestring/_buttons.sass */
+  /* line 34, ../../../sass/shoestring/_buttons.sass */
   a.button.warning, input.warning[type=button].button, input.warning[type=submit].button, button.warning.button {
     color: white;
     background: #f0ad4e;
     border: 2px solid #f0ad4e; }
-    /* line 45, /home/vagrant/code/mks/frontend/shoestring/_buttons.sass */
+    /* line 38, ../../../sass/shoestring/_buttons.sass */
     a.button.warning:hover, input.warning[type=button].button:hover, input.warning[type=submit].button:hover, button.warning.button:hover {
       background: #ec971f;
       border: 2px solid #df8a13; }
-    /* line 48, /home/vagrant/code/mks/frontend/shoestring/_buttons.sass */
+    /* line 41, ../../../sass/shoestring/_buttons.sass */
     a.button.warning:active, input.warning[type=button].button:active, input.warning[type=submit].button:active, button.warning.button:active {
       background: #df8a13;
       border: 2px solid #df8a13; }
-  /* line 41, /home/vagrant/code/mks/frontend/shoestring/_buttons.sass */
+  /* line 34, ../../../sass/shoestring/_buttons.sass */
   a.button.danger, input.danger[type=button].button, input.danger[type=submit].button, button.danger.button {
     color: white;
     background: #d9534f;
     border: 2px solid #d9534f; }
-    /* line 45, /home/vagrant/code/mks/frontend/shoestring/_buttons.sass */
+    /* line 38, ../../../sass/shoestring/_buttons.sass */
     a.button.danger:hover, input.danger[type=button].button:hover, input.danger[type=submit].button:hover, button.danger.button:hover {
       background: #c9302c;
       border: 2px solid #b52b27; }
-    /* line 48, /home/vagrant/code/mks/frontend/shoestring/_buttons.sass */
+    /* line 41, ../../../sass/shoestring/_buttons.sass */
     a.button.danger:active, input.danger[type=button].button:active, input.danger[type=submit].button:active, button.danger.button:active {
       background: #b52b27;
       border: 2px solid #b52b27; }
 
-/* line 53, /home/vagrant/code/mks/frontend/shoestring/_buttons.sass */
-=======
-  /* line 35, /home/vagrant/code/mks/frontend/shoestring/_buttons.sass */
-  a.button:hover, input[type=button].button:hover, input[type=submit].button:hover, button.button:hover {
-    background: #efe9e9; }
-  /* line 37, /home/vagrant/code/mks/frontend/shoestring/_buttons.sass */
-  a.button:active, input[type=button].button:active, input[type=submit].button:active, button.button:active {
-    background: #b3b3b3; }
-
-/* line 56, /home/vagrant/code/mks/frontend/shoestring/_buttons.sass */
->>>>>>> c9ce408870d83a6737c50379f6c2524c99109d58
+/* line 46, ../../../sass/shoestring/_buttons.sass */
 input[type=button].button, input[type=submit].button, button.button {
   cursor: pointer;
   outline: none; }
 
-<<<<<<< HEAD
-/* line 1, ../../../sass/shoestring/links.sass */
+/* line 3, /home/vagrant/code/mks/frontend/shoestring/sass/shoestring/_links.sass */
 a {
+  color: #1c9bf2;
   text-decoration: none; }
+  /* line 6, /home/vagrant/code/mks/frontend/shoestring/sass/shoestring/_links.sass */
+  a:hover {
+    color: #0b71b7; }
+  /* line 8, /home/vagrant/code/mks/frontend/shoestring/sass/shoestring/_links.sass */
+  a:active {
+    color: #085387; }
 
-/* line 22, ../../../sass/shoestring/main.sass */
+/* line 24, ../../../sass/shoestring/main.sass */
 body {
   background: #ddf0fd; }
-  /* line 24, ../../../sass/shoestring/main.sass */
-=======
-/* line 19, ../../../sass/shoestring/main.sass */
-body {
-  background: #ddf0fd; }
-  /* line 21, ../../../sass/shoestring/main.sass */
->>>>>>> c9ce408870d83a6737c50379f6c2524c99109d58
+  /* line 26, ../../../sass/shoestring/main.sass */
   body h1 {
     color: hotpink; }
